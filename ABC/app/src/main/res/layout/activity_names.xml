@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    tools:context=".Names">
+    
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/txtName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:hint="Name:"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+        android:textStyle="bold"
+        android:translationX="150dp"
+        android:translationY="220dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo"
+        android:hint="Age:"
+        android:inputType="number"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_pressed"
+        android:textStyle="bold"
+        android:translationY="310dp" />
+
+    <Button
+        android:id="@+id/bbb"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttoncolor"
+        android:text="back"
+        android:textColor="#fefefe"
+        android:textSize="15sp"
+        android:translationY="110dp"
+        android:fontFamily="@font/baloo"
+        android:translationX="-70dp"
+        tools:targetApi="jelly_bean"/>
+
+    <Button
+        android:id="@+id/ccc"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttoncolor"
+        android:text="Continue"
+        android:textColor="#fefefe"
+        android:textSize="15sp"
+        android:translationY="110dp"
+        android:fontFamily="@font/baloo"
+        android:translationX="70dp"
+        android:onClick="insertData"
+
+        tools:targetApi="jelly_bean"/>
+
+</RelativeLayout>

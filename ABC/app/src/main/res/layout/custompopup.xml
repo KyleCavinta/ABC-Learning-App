@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="430dp"
+    android:background="@color/colorPrimary"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackbground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:translationX="-5dp"
+        android:translationY="12dp" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:translationX="85dp"
+        android:translationY="-36dp" />
+
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:translationX="175dp"
+        android:translationY="-84dp" />
+
+    <Button
+        android:id="@+id/menu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:translationX="265dp"
+        android:translationY="-132dp" />
+
+    <Button
+        android:id="@+id/menu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:translationX="-5dp"
+        android:translationY="-132dp" />
+
+    <Button
+        android:id="@+id/menu6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:translationX="85dp"
+        android:translationY="-180dp" />
+
+
+    <Button
+        android:id="@+id/menu7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G"
+        android:translationX="175dp"
+        android:translationY="-228dp" />
+
+    <Button
+        android:id="@+id/menu8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:translationX="265dp"
+        android:translationY="-276dp" />
+
+    <Button
+        android:id="@+id/menu9"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="I"
+        android:translationX="-5dp"
+        android:translationY="-275dp" />
+
+    <Button
+        android:id="@+id/menu10"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="J"
+        android:translationX="85dp"
+        android:translationY="-323dp" />
+
+    <Button
+        android:id="@+id/menu11"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="K"
+        android:translationX="175dp"
+        android:translationY="-371dp" />
+
+    <Button
+        android:id="@+id/menu12"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="L"
+        android:translationX="265dp"
+        android:translationY="-420dp" />
+
+    <Button
+        android:id="@+id/menu13"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="M"
+        android:translationX="-5dp"
+        android:translationY="-420dp" />
+    <Button
+        android:id="@+id/menu14"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="N"
+        android:translationX="85dp"
+        android:translationY="-468dp" />
+    <Button
+        android:id="@+id/menu15"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="O"
+        android:translationX="175dp"
+        android:translationY="-515dp" />
+
+    <Button
+        android:id="@+id/menu16"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="P"
+        android:translationX="265dp"
+        android:translationY="-563dp" />
+
+    <Button
+    android:id="@+id/menu17"
+    android:layout_width="89dp"
+    android:layout_height="48dp"
+    android:text="Q"
+    android:translationX="-5dp"
+    android:translationY="-562dp" />
+
+    <Button
+        android:id="@+id/menu18"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="R"
+        android:translationX="85dp"
+        android:translationY="-610dp" />
+
+    <Button
+        android:id="@+id/menu19"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="S"
+        android:translationX="175dp"
+        android:translationY="-657dp" />
+
+    <Button
+        android:id="@+id/menu20"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="T"
+        android:translationX="265dp"
+        android:translationY="-705dp" />
+
+    <Button
+        android:id="@+id/menu21"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="U"
+        android:translationX="-5dp"
+        android:translationY="-705dp" />
+
+    <Button
+        android:id="@+id/menu22"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="V"
+        android:translationX="85dp"
+        android:translationY="-754dp" />
+
+    <Button
+        android:id="@+id/menu23"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="W"
+        android:translationX="175dp"
+        android:translationY="-802dp" />
+
+    <Button
+        android:id="@+id/menu24"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="X"
+        android:translationX="265dp"
+        android:translationY="-850dp" />
+    <Button
+        android:id="@+id/menu25"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="Y"
+        android:translationX="85dp"
+        android:translationY="-848dp" />
+
+    <Button
+        android:id="@+id/menu26"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        android:text="Z"
+        android:translationX="175dp"
+        android:translationY="-897dp" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

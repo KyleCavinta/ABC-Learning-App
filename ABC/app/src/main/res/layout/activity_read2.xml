@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    tools:context=".read2">
+
+    <VideoView
+        android:id="@+id/videoVieww"
+        android:layout_width="307dp"
+        android:layout_height="258dp"
+        android:translationX="50dp"
+        android:translationY="200dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Button
+        android:id="@+id/video11"
+        android:layout_width="167dp"
+        android:layout_height="43dp"
+        android:background="@drawable/buttoncolor"
+        android:fontFamily="@font/baloo"
+        android:text="Play"
+        android:textColor="#fefefe"
+        android:textSize="25sp"
+        android:translationX="-182dp"
+        android:translationY="470dp"
+        android:onClick="videoplay11"
+        tools:targetApi="jelly_bean" />
+
+    <ImageButton
+        android:id="@+id/vdd1"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:translationX="-440dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:background="#F3F3E8"
+        android:src="@drawable/back"
+        android:translationY="600dp" />
+
+    <ImageButton
+        android:id="@+id/vdd3"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:translationX="-270dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#F3F3E8"
+        android:src="@drawable/next"
+        android:translationY="600dp" />
+
+</LinearLayout>

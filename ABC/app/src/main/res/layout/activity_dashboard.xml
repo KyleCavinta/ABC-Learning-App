@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dash_bg"
+    tools:context=".Dashboard">
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/onedash"
+        android:background="#f5f5e9"
+        android:translationY="105dp" />
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:translationY="250dp"
+        android:background="#f5f5e9"
+        android:src="@drawable/numb"/>
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:translationY="400dp"
+        android:background="#f5f5e9"
+        android:src="@drawable/dsw"/>
+
+    <ImageButton
+        android:id="@+id/ib4"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:translationY="545dp"
+        android:background="#f5f5e9"
+        android:src="@drawable/fourdash"/>
+
+
+    <Button
+        android:id="@+id/ib5"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttoncolor"
+        android:fontFamily="@font/baloo"
+        android:text="back"
+        android:textColor="#fefefe"
+        android:textSize="18sp"
+        android:translationY="60dp"
+        android:translationX="20dp"
+
+        tools:targetApi="jelly_bean" />
+
+
+</RelativeLayout>

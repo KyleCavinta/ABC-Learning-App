@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ABC</string>
+    <string name="actionbar"> </string>
+    <string name="btn_ply">PLAY</string>
+    <string name="btn_opt">OPTION</string>
+    <string name="btn_hlp">HELP</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="bbb">BACK</string>
+    <string name="ccc">CONTINUE</string>
+
+
+
+</resources>

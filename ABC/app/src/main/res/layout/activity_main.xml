@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_ply"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttoncolor"
+        android:text="@string/btn_ply"
+        android:textColor="#fefefe"
+        android:textSize="30sp"
+        android:translationY="40dp"
+        android:fontFamily="@font/baloo"
+
+        tools:targetApi="jelly_bean"/>
+
+    <Button
+        android:id="@+id/btn_opt"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="DEVELOPER"
+        android:textSize="28sp"
+        android:textColor="#fefefe"
+        android:translationY="110dp"
+        android:background="@drawable/buttoncolor"
+        android:fontFamily="@font/baloo"
+        tools:targetApi="jelly_bean"
+        />
+
+    <Button
+        android:id="@+id/btn_hlp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="@string/btn_hlp"
+        android:textSize="30sp"
+        android:textColor="#fefefe"
+        android:translationY="180dp"
+        android:background="@drawable/buttoncolor"
+        android:fontFamily="@font/baloo"
+        tools:targetApi="jelly_bean"
+        />
+
+
+</RelativeLayout>

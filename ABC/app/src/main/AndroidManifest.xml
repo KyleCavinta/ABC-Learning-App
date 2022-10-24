@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ndiappink.abc">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".read2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Names"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".seven"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".six"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".five"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".four"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".three"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".two"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".one"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Options"
+            android:label="@string/actionbar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".help"
+            android:label="@string/actionbar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tracn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracx"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracw"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracv"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tract"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".traco"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracl"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".track"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracj"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".traci"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".trach"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracf"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".traceE"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracD"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tracb"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".draw"
+            android:parentActivityName=".draw" />
+        <activity android:name=".read"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".num"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".traca"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
